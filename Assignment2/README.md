@@ -1,8 +1,10 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
+- Name: Erdi Jiang
 - How many hours did it take you to complete this assignment?
+- 2 Hours
 - Did you collaborate with any other students/TAs/Professors?
+- No
 - Did you use any external resources? (Cite them below)
   - tbd
   - tbd
