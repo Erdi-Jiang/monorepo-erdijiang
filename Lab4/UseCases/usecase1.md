@@ -6,31 +6,33 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: *Setting Canvas Size*
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: *User*
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: *To set the size of the canvas to a specific width and height. (600x400)*
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: *The program must be running and in a responsive state.*
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: *The user wants to change the canvas size.*
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario 1**: *The user opens the program and decides to create a canvas of 800x600 pixels. They navigate to the menu or settings, specify the width as 800 pixels and the height as 600 pixels, and apply the changes.*
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Scenario 2**: *The user decides to resize the canvas to 400x300 pixels while working on a project. They go to the canvas settings, enter the new dimensions, and confirm the change.*
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Exceptions**: *If the specified dimensions are not within a reasonable range or if the canvas resizing operation encounters an error, an error message should be displayed to the user.*
 
-**When available**: *the targeted release that covers this use case*
+**Priority**: *Medium-priority*
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**When available**: *First release*
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Channel to actor**: *The primary actor communicates through the user interface, specifying the desired canvas dimensions.*
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Secondary Actor**: *N/A*
 
-**Open Issues**: *notes, concerns, or other materials*
+**Channels to Secondary Actors**: *N/A*
+
+**Open Issues**: *Ensure that the canvas resizing operation maintains the aspect ratio to avoid distortion.*
 
 <hr>
 
