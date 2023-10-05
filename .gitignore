@@ -1,4 +1,8 @@
 .idea*
 .DS_Store
 .venv*
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
 # Do not include binary files and data files. While git does not have a definition for "binary files", it can check by giving match patterns and exclude specific files.
